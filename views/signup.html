@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/signup.css">
+    
+</head>
+<body>
+
+    <div class="container1 p-4" id="form-container">
+        <h2 id="form-title">Login</h2>
+        <form id="login-form">
+            <div class="mb-3">
+                <input type="email" class="form-control" id="login-email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="login-password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-custom w-100" id="login-btn">Login</button>
+        </form>
+        <p class="forgot-password" id="forgot-password-link">Forgot Password?</p>
+
+        <form id="signup-form" style="display: none;">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="signup-name" placeholder="Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="signup-email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="signup-password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-custom w-100" id="signup-btn">Sign Up</button>
+        </form>
+        <span class="toggle-link" id="toggle-form">Don't have an account? Sign up</span>
+    </div>
+    <div id="forgot-password-popup" class="forgot-password-popup">
+        <div class="forgot-password-content">
+            <h3>Reset Password</h3>
+            <input type="email" id="forgot-email" class="form-control" placeholder="Enter your email" required>
+            <button class="btn btn-custom w-100 mt-2" id="reset-password-btn">Submit</button>
+        </div>
+    </div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="/js/signup.js"></script>
+
+
+
+
+</body>
+</html>

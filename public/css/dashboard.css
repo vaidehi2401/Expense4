@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(108,196,191,255);
+    color: white;
+    padding: 15px 20px;
+    height: 80px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header button {
+    background-color:  #007bff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color:#0056b3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.list-group-item {
+    font-size: 18px;
+    font-weight: bold;
+}
+.newLi{
+    margin-top: 5px;
+}
+#userList{
+    align-items: center;
+}

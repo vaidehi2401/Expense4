@@ -1,0 +1,119 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    background-color:  #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+.app-header {
+    width: 100%;
+    height: 85px;
+    background-color: rgba(108,196,191,255);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.expense-form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+     margin-top: 100px;
+}
+
+.expense-form-container h2 {
+    color: rgba(108,196,191,255);
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid rgba(108,196,191,255);
+}
+
+.btn-primary {
+    background-color: rgba(108,196,191,255);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5ab3af;
+}
+
+/* Expense List Styling */
+.expense-list-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 100px;
+}
+
+.expense-list-container h2 {
+    color: rgba(108,196,191,255);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-danger {
+    width: 80px;
+    font-size: 14px;
+}
+
+/* Premium Button */
+.premium-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    border: none;
+}
+
+.premium-btn:hover {
+    background-color: #0056b3;
+}
+#liste{
+    margin-left: 40px;
+}
+.delete{
+    margin-left: 10px;
+}
+.newLi{
+    margin-top: 5px;
+}
+#premium-section{
+    display: none;
+}
+#premium-section{
+    top:10px;
+    left:30px;
+    position: fixed;
+}
+#dashboard-btn{
+    background-color: #007bff;
+    border: none;
+}
+#dashboard-btn:hover {
+    background-color: #0056b3;
+}
